@@ -238,4 +238,8 @@ def winning_team
     scores[(team[:team_name])] = team_score(team[:team_name])
   end 
   scores.max_by {|key, value| value }.first
+<<<<<<< HEAD
 end 
+=======
+end 
+>>>>>>> f9fb2dd5f735c0b85cb0851761cb485fd77a069f
